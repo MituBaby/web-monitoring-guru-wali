@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../context/AuthContext';
-import { Users, PlayCircle, School, AlertTriangle, ArrowRight, BookOpen, Clock } from 'lucide-react';
+import { Users, PlayCircle, School, ArrowRight, Clock } from 'lucide-react';
 
 interface DashboardStats {
   activeGroupCount: number;

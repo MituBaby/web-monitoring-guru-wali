@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../context/AuthContext';
-import { PlayCircle, BarChart3, Plus, CheckCircle, Clock, AlertCircle } from 'lucide-react';
+import { PlayCircle, BarChart3, Plus, Clock } from 'lucide-react';
 
 interface Group {
   id: string;

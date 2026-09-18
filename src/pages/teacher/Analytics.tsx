@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { supabase } from '../../lib/supabase';
-import { BarChart3, ArrowUpRight, ArrowDownRight, AlertTriangle, ArrowLeft, CheckCircle } from 'lucide-react';
+import { ArrowUpRight, ArrowDownRight, AlertTriangle, ArrowLeft, CheckCircle } from 'lucide-react';
 
 interface StudentAnalytics {
   student_id: string;

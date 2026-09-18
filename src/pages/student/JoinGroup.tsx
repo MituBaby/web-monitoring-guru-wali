@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../context/AuthContext';
-import { KeyRound, CheckCircle2, School } from 'lucide-react';
+import { KeyRound, CheckCircle2 } from 'lucide-react';
 
 export default function JoinGroup() {
   const { user } = useAuth();

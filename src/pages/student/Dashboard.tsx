@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../context/AuthContext';
-import { PlayCircle, CheckCircle2, Clock, AlertCircle, BookOpen, User } from 'lucide-react';
+import { PlayCircle, CheckCircle2, Clock, AlertCircle, BookOpen } from 'lucide-react';
 
 interface ActiveSession {
   id: string;
